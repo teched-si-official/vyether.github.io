@@ -1,0 +1,12 @@
+
+/* APP BACKGROUND */
+--background-shading-percent: 100%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
+--background-image: url(https://media.discordapp.net/attachments/1382047530858057842/1391065942473052170/e7c9310c-7d6d-424a-b6ce-64b32e9b34b6.mp4.gif?ex=686a8a9d&is=6869391d&hm=c39602b436bbbc3ea25b6afbee29a7045f633961d73ee8fff0e446fcc90f818d&=&width=688&height=386); /* app background image (link must be HTTPS) [default: url()]*/
+--background-position: center; /* app background position [default: center] */
+--background-size: cover; /* app background size (px) [default: cover] */
+--background-attachment: fixed; /* app background attachment [default: fixed] */
+--background-filter: saturate(calc(var(--saturation-factor, 1) * 1)) brightness(1.6); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
+
+/* HOME ICON */
+--home-icon: url(https://media.discordapp.net/attachments/1382047530858057842/1391054711033036901/Untitled_design.gif?ex=686a8027&is=68692ea7&hm=1a9afbe9a408c9dc2f724fac1d88d61688ca3335d390eed833518d2e1aaae554&=&width=586&height=880); /* home button icon (link must be HTTPS) [default: url()]*/
+--home-size: cover; /* home button icon size (px) [default:cover] */
